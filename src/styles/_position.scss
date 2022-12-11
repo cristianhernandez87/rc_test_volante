@@ -1,0 +1,44 @@
+// position
+.position {
+    &.position {
+        &-z {
+            &-1 {
+                z-index: 1000;
+            }
+            &-2 {
+                z-index: 2000;
+            }
+            &-3 {
+                z-index: 3000;
+            }
+            &-4 {
+                z-index: 4000;
+            }
+            &-5 {
+                z-index: 5000;
+            }
+            &-6 {
+                z-index: 6000;
+            }
+            &-7 {
+                z-index: 7000;
+            }
+            &-8 {
+                z-index: 8000;
+            }
+            &-9 {
+                z-index: 9000;
+            }
+        }
+        &-50 {
+            &-50 {
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+        &-absolute { position: absolute; }
+        &-relative { position: relative; }
+        &-static { position: static; }
+    }
+}

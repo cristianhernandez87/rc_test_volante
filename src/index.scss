@@ -1,0 +1,23 @@
+@import './styles/fonts';
+@import './styles/responsive';
+@import './styles/colors';
+@import './styles/grid';
+@import './styles/mixing_artefacts';
+@import './styles/margin_padding';
+@import './styles/position';
+@import './styles/text';
+@import './styles/buttons';
+@import './styles/bg';
+@import './styles/images';
+@import './styles/col';
+@import './styles/utilities';
+@import './styles/form';
+@import './styles/border';
+@import './styles/spinner';
+
+
+body {
+    * {
+        box-sizing: border-box;
+    }
+}

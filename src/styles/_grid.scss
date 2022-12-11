@@ -1,0 +1,42 @@
+// grid 
+.container {
+    &.container {
+        &-1261 {
+            @include breakpoint(mega) {
+                max-width: 1261px;
+            }
+        }
+        &-1544 {
+            @include breakpoint(d_1600) {
+                max-width: 1544px;
+            }
+        }
+        &-1561 {
+            @include breakpoint(d_1600) {
+                max-width: 1561px;
+            }
+        }
+        &-1673 {
+            @include breakpoint(d_1600) {
+                max-width: 1673px;
+            }
+        }
+        &-1729 {
+            @include breakpoint(mega) {
+                max-width: 1729px;
+            }
+        }
+    }
+    .col {
+        &-lg {
+            &-2 {
+                &-8 {
+                    @include breakpoint(desktop) {
+                        flex: 0 0 28%;
+                        max-width: 28%;
+                    }
+                }
+            }
+        }
+    }
+}

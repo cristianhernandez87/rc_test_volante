@@ -1,0 +1,76 @@
+// images
+.img {
+    &.img {
+        &-auto { object-fit: cover; }
+        &-contain { object-fit: contain; }
+        &-shadow { box-shadow: 7px 7px 20px 0 rgba(50, 50, 50, 0.32); }
+        &-w {
+            width: 100%;
+            &-1 {
+                width: 1rem;
+                &-5 { width: 1.5rem; }
+            }
+            &-2 { width: 2rem; }
+            &-3 { width: 3rem; }
+            &-4 { width: 4rem; }
+            &-5 { width: 5rem; }
+            &-6 { width: 6rem; }
+            &-7 { width: 7rem; }
+            &-8 { width: 8rem; }
+            &-9 { width: 9rem; }
+            &-10 { width: 10rem; }
+            &-50 { width: 50%; }
+            &-max {
+                &-100 { max-width: 100%; }
+            }
+            &-lg {
+                &-1 { @include breakpoint(desktop) { width: 1rem !important; } }
+                &-2 { @include breakpoint(desktop) { width: 2rem !important; } }
+                &-3 { @include breakpoint(desktop) { width: 3rem !important; } }
+                &-4 { @include breakpoint(desktop) { width: 4rem !important; } }
+                &-5 { @include breakpoint(desktop) { width: 5rem !important; } }
+                &-6 { @include breakpoint(desktop) { width: 6rem !important; } }
+                &-7 { @include breakpoint(desktop) { width: 7rem !important; } }
+                &-8 { @include breakpoint(desktop) { width: 8rem !important; } }
+                &-9 { @include breakpoint(desktop) { width: 9rem !important; } }
+                &-10 { @include breakpoint(desktop) { width: 10rem !important; } }
+                &-11 { @include breakpoint(desktop) { width: 11rem !important; } }
+                &-12 { @include breakpoint(desktop) { width: 12rem !important; } }
+                &-13 { @include breakpoint(desktop) { width: 13rem !important; } }
+                &-14 { @include breakpoint(desktop) { width: 14rem !important; } }
+                &-15 { @include breakpoint(desktop) { width: 15rem !important; } }
+                &-50 { @include breakpoint(desktop) { width: 50% !important; } }
+                &-100 { @include breakpoint(desktop) { width: 100% !important; } }
+            }
+        }
+        &-h {
+            height: 100%;
+            &-50 { height: 50%; }
+            &-100 { height: 100px; }
+            &-150 { height: 150px; }
+            &-200 { height: 200px; }
+            &-250 { height: 250px; }
+            &-300 { height: 300px; }
+            &-350 { height: 350px; }
+            &-400 { height: 400px; }
+            &-450 { height: 450px; }
+            &-480 { height: 480px; }
+            &-500 { height: 500px; }
+            &-550 { height: 550px; }
+            &-lg {
+                &-50 { @include breakpoint(desktop) { height: 50% !important; } }
+                &-100 { @include breakpoint(desktop) { height: 100% !important; } }
+                &-200 { @include breakpoint(desktop) { height: 200px !important; } }
+                &-250 { @include breakpoint(desktop) { height: 250px !important; } }
+                &-300 { @include breakpoint(desktop) { height: 300px !important; } }
+                &-350 { @include breakpoint(desktop) { height: 350px !important; } }
+                &-400 { @include breakpoint(desktop) { height: 400px !important; } }
+                &-450 { @include breakpoint(desktop) { height: 450px !important; } }
+                &-480 { @include breakpoint(desktop) { height: 480px !important; } }
+                &-500 { @include breakpoint(desktop) { height: 500px !important; } }
+                &-550 { @include breakpoint(desktop) { height: 550px !important; } }
+                &-600 { @include breakpoint(desktop) { height: 600px !important; } } 
+            }
+        }
+    }
+}

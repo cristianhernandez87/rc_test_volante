@@ -1,0 +1,612 @@
+// text
+.text {
+    font-family: $font_primary;
+    line-height: 120%;
+    color: $color_gray;
+    font-size: 1rem;
+    &.text {
+        &-shadow{
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+        }
+        &-family {
+            &-primary { font-family: $font_primary; }
+        }
+        &-size {
+            &-0 {
+                font-size: 0;
+                &-1 {
+                    font-size: .1rem;
+                }
+                &-2 {
+                    font-size: .2rem;
+                }
+                &-3 {
+                    font-size: .3rem;
+                }
+                &-4 {
+                    font-size: .4rem;
+                }
+                &-5 {
+                    font-size: .5rem;
+                }
+                &-6 {
+                    font-size: .6rem;
+                }
+                &-7 {
+                    font-size: .7rem;
+                }
+                &-8 {
+                    font-size: .8rem;
+                }
+                &-9 {
+                    font-size: .9rem;
+                }
+            }
+            &-1 {
+                font-size: 1rem;
+                &-1 {
+                    font-size: 1.1rem;
+                }
+                &-2 {
+                    font-size: 1.2rem;
+                }
+                &-3 {
+                    font-size: 1.3rem;
+                }
+                &-4 {
+                    font-size: 1.4rem;
+                }
+                &-5 {
+                    font-size: 1.5rem;
+                }
+                &-6 {
+                    font-size: 1.6rem;
+                }
+                &-7 {
+                    font-size: 1.7rem;
+                }
+                &-8 {
+                    font-size: 1.8rem;
+                }
+                &-9 {
+                    font-size: 1.9rem;
+                }
+            }
+            &-2 {
+                font-size: 2rem;
+                &-1 {
+                    font-size: 2.1rem;
+                }
+                &-2 {
+                    font-size: 2.2rem;
+                }
+                &-3 {
+                    font-size: 2.3rem;
+                }
+                &-4 {
+                    font-size: 2.4rem;
+                }
+                &-5 {
+                    font-size: 2.5rem;
+                }
+                &-6 {
+                    font-size: 2.6rem;
+                }
+                &-7 {
+                    font-size: 2.7rem;
+                }
+                &-8 {
+                    font-size: 2.8rem;
+                }
+                &-9 {
+                    font-size: 2.9rem;
+                }
+            }
+            &-3 {
+                font-size: 3rem;
+                &-1 {
+                    font-size: 3.1rem;
+                }
+                &-2 {
+                    font-size: 3.2rem;
+                }
+                &-3 {
+                    font-size: 3.3rem;
+                }
+                &-4 {
+                    font-size: 3.4rem;
+                }
+                &-5 {
+                    font-size: 3.5rem;
+                }
+                &-6 {
+                    font-size: 3.6rem;
+                }
+                &-7 {
+                    font-size: 3.7rem;
+                }
+                &-8 {
+                    font-size: 3.8rem;
+                }
+                &-9 {
+                    font-size: 3.9rem;
+                }
+            }
+            &-4 {
+                font-size: 4rem;
+                &-1 {
+                    font-size: 4.1rem;
+                }
+                &-2 {
+                    font-size: 4.2rem;
+                }
+                &-3 {
+                    font-size: 4.3rem;
+                }
+                &-4 {
+                    font-size: 4.4rem;
+                }
+                &-5 {
+                    font-size: 4.5rem;
+                }
+                &-6 {
+                    font-size: 4.6rem;
+                }
+                &-7 {
+                    font-size: 4.7rem;
+                }
+                &-8 {
+                    font-size: 4.8rem;
+                }
+                &-9 {
+                    font-size: 4.9rem;
+                }
+            }
+            &-5 {
+                font-size: 5rem;
+                &-1 {
+                    font-size: 5.1rem;
+                }
+                &-2 {
+                    font-size: 5.2rem;
+                }
+                &-3 {
+                    font-size: 5.3rem;
+                }
+                &-4 {
+                    font-size: 5.4rem;
+                }
+                &-5 {
+                    font-size: 5.5rem;
+                }
+                &-6 {
+                    font-size: 5.6rem;
+                }
+                &-7 {
+                    font-size: 5.7rem;
+                }
+                &-8 {
+                    font-size: 5.8rem;
+                }
+                &-9 {
+                    font-size: 5.9rem;
+                }
+            }
+            &-6 { font-size: 6rem; }
+            &-7 { font-size: 7rem; }
+            &-8 { font-size: 8rem; }
+            &-9 { font-size: 9rem; }
+            &-lg {
+                &-0 {
+                    @include breakpoint(desktop) {
+                        font-size: 0 !important;
+                    }
+                    &-1 {
+                        @include breakpoint(desktop) {
+                            font-size: .1rem !important;
+                        }
+                    }
+                    &-2 {
+                        @include breakpoint(desktop) {
+                            font-size: .2rem !important;
+                        }
+                    }
+                    &-3 {
+                        @include breakpoint(desktop) {
+                            font-size: .3rem !important;
+                        }
+                    }
+                    &-4 {
+                        @include breakpoint(desktop) {
+                            font-size: .4rem !important;
+                        }
+                    }
+                    &-5 {
+                        @include breakpoint(desktop) {
+                            font-size: .5rem !important;
+                        }
+                    }
+                    &-6 {
+                        @include breakpoint(desktop) {
+                            font-size: .6rem !important;
+                        }
+                    }
+                    &-7 {
+                        @include breakpoint(desktop) {
+                            font-size: .7rem !important;
+                        }
+                    }
+                    &-8 {
+                        @include breakpoint(desktop) {
+                            font-size: .8rem !important;
+                        }
+                    }
+                    &-9 {
+                        @include breakpoint(desktop) {
+                            font-size: .9rem !important;
+                        }
+                    }
+                }
+                &-1 {
+                    @include breakpoint(desktop) {
+                        font-size: 1rem !important;
+                    }
+                    &-1 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.1rem !important;
+                        }
+                    }
+                    &-2 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.2rem !important;
+                        }
+                    }
+                    &-3 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.3rem !important;
+                        }
+                    }
+                    &-4 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.4rem !important;
+                        }
+                    }
+                    &-5 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.5rem !important;
+                        }
+                    }
+                    &-6 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.6rem !important;
+                        }
+                    }
+                    &-7 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.7rem !important;
+                        }
+                    }
+                    &-8 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.8rem !important;
+                        }
+                    }
+                    &-9 {
+                        @include breakpoint(desktop) {
+                            font-size: 1.9rem !important;
+                        }
+                    }
+                }
+                &-2 {
+                    @include breakpoint(desktop) {
+                        font-size: 2rem !important;
+                    }
+                    &-1 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.1rem !important;
+                        }
+                    }
+                    &-2 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.2rem !important;
+                        }
+                    }
+                    &-3 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.3rem !important;
+                        }
+                    }
+                    &-4 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.4rem !important;
+                        }
+                    }
+                    &-5 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.5rem !important;
+                        }
+                    }
+                    &-6 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.6rem !important;
+                        }
+                    }
+                    &-7 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.7rem !important;
+                        }
+                    }
+                    &-8 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.8rem !important;
+                        }
+                    }
+                    &-9 {
+                        @include breakpoint(desktop) {
+                            font-size: 2.9rem !important;
+                        }
+                    }
+                }
+                &-3 {
+                    @include breakpoint(desktop) {
+                        font-size: 3rem !important;
+                    }
+                    &-1 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.1rem !important;
+                        }
+                    }
+                    &-2 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.2rem !important;
+                        }
+                    }
+                    &-3 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.3rem !important;
+                        }
+                    }
+                    &-4 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.4rem !important;
+                        }
+                    }
+                    &-5 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.5rem !important;
+                        }
+                    }
+                    &-6 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.6rem !important;
+                        }
+                    }
+                    &-7 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.7rem !important;
+                        }
+                    }
+                    &-8 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.8rem !important;
+                        }
+                    }
+                    &-9 {
+                        @include breakpoint(desktop) {
+                            font-size: 3.9rem !important;
+                        }
+                    }
+                }
+                &-4 {
+                    @include breakpoint(desktop) {
+                        font-size: 4rem !important;
+                    }
+                    &-1 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.1rem !important;
+                        }
+                    }
+                    &-2 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.2rem !important;
+                        }
+                    }
+                    &-3 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.3rem !important;
+                        }
+                    }
+                    &-4 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.4rem !important;
+                        }
+                    }
+                    &-5 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.5rem !important;
+                        }
+                    }
+                    &-6 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.6rem !important;
+                        }
+                    }
+                    &-7 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.7rem !important;
+                        }
+                    }
+                    &-8 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.8rem !important;
+                        }
+                    }
+                    &-9 {
+                        @include breakpoint(desktop) {
+                            font-size: 4.9rem !important;
+                        }
+                    }
+                }
+                &-5 {
+                    @include breakpoint(desktop) {
+                        font-size: 5rem !important;
+                    }
+                    &-1 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.1rem !important;
+                        }
+                    }
+                    &-2 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.2rem !important;
+                        }
+                    }
+                    &-3 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.3rem !important;
+                        }
+                    }
+                    &-4 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.4rem !important;
+                        }
+                    }
+                    &-5 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.5rem !important;
+                        }
+                    }
+                    &-6 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.6rem !important;
+                        }
+                    }
+                    &-7 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.7rem !important;
+                        }
+                    }
+                    &-8 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.8rem !important;
+                        }
+                    }
+                    &-9 {
+                        @include breakpoint(desktop) {
+                            font-size: 5.9rem !important;
+                        }
+                    }
+                }
+            }
+        }
+        &-color {
+            &-primary {
+                color: $color_primary;
+            }
+            &-secondary {
+                color: $color_secondary;
+            }
+            &-tertiary {
+                color: $color_tertiary;
+            }
+            &-quaternary {
+                color: $color_quaternary;
+            }
+            &-quintary {
+                color: $color_quintary;
+            }
+            &-black {
+                color: $color_black;
+            }
+            &-white {
+                color: $color_white;
+            }
+            &-transparent {
+                color: $color_transparent;
+            }
+        }
+        &-lh {
+            &-100 {
+                line-height: 100%;
+            }
+            &-110 {
+                line-height: 110%;
+            }
+            &-125 {
+                line-height: 125%;
+            }
+            &-150 {
+                line-height: 150%;
+            }
+        }
+        &-w {
+            &-light { font-weight: 300; }
+            &-reg { font-weight: 400; } 
+            &-med { font-weight: 500; }
+            &-bold { font-weight: bold; }
+        }
+        &-border {
+            &-left {
+                position: relative;
+                &:after {
+                    @extend %after-before-bas;
+                    height: 2px;
+                    left: 0;
+                    top: calc(50% - 1px);
+                }
+                &-color {
+                    &-white {
+                        &:after { background-color: $color_white; }
+                    }
+                    &-black {
+                        &:after { background-color: $color_black; }
+                    }
+                    &-primary {
+                        &:after { background-color: $color_primary; }
+                    }
+                    &-secondary {
+                        &:after { background-color: $color_secondary; }
+                    }
+                    &-secondary {
+                        &:after { background-color: $color_tertiary; }
+                    }
+                    &-quaternary {
+                        &:after { background-color: $color_quaternary; }
+                    }
+                    &-quintary {
+                        &:after { background-color: $color_quintary; }
+                    }
+                }
+                &-w {
+                    &-1 {
+                        padding-left: 1.5rem;
+                        &::after { width: 1rem; }
+                    }
+                    &-2 {
+                        padding-left: 2.5rem;
+                        &::after { width: 2rem; }
+                    }
+                    &-3 {
+                        padding-left: 3.5rem;
+                        &::after { width: 3rem; }
+                    }
+                    &-4 {
+                        padding-left: 4.5rem;
+                        &::after { width: 4rem; }
+                    }
+                    &-5 {
+                        padding-left: 5.5rem;
+                        &::after { width: 6rem; }
+                    }
+                    &-6 {
+                        padding-left: 6.5rem;
+                        &::after { width: 6rem; }
+                    }
+                }
+            }
+        }
+        &-center { text-align: center; }
+        &-left { text-align: left; }
+        &-right { text-align: right; }
+    }
+}

@@ -1,0 +1,129 @@
+// border gator
+@import 'colors';
+@import 'responsive';
+@import 'mixing_artefacts';
+// border
+.border {
+  &.border {
+    border: 1px solid $color_transparent;
+    &-primary {
+      border-color: $color_primary;
+    }
+    &-black {
+      border-color: $color_black;
+    }
+    &-white {
+      border-color: $color_white;
+    }
+    &-transparent {
+      border-color: $color_transparent;
+    }
+    &-left {
+      border-left: 1px solid $color_transparent;
+      &-primary {
+        border-left-color: $color_primary;
+      }
+      &-black {
+        border-left-color: $color_black;
+      }
+      &-white {
+        border-left-color: $color_white;
+      }
+      &-transparent {
+        border-left-color: $color_transparent;
+      }
+    }
+    &-right {
+      border-right: 1px solid $color_transparent;
+      &-primary {
+        border-right-color: $color_primary;
+      }
+      &-black {
+        border-right-color: $color_black;
+      }
+      &-white {
+        border-right-color: $color_white;
+      }
+      &-transparent {
+        border-right-color: $color_transparent;
+      }
+    }
+    &-top {
+      border-top: 1px solid $color_transparent;
+      &-w {
+        &-3 {
+          border-top-width: 3px;
+        }
+      }
+      &-primary {
+        border-top-color: $color_primary;
+      }
+      &-black {
+        border-top-color: $color_black;
+      }
+      &-white {
+        border-top-color: $color_white;
+      }
+      &-transparent {
+        border-top-color: $color_transparent;
+      }
+    }
+    &-bottom {
+      border-bottom: 1px solid $color_transparent;
+      &-3 {
+        border-bottom-width: 3px;
+      }
+      &-primary {
+        border-bottom-color: $color_primary;
+      }
+      &-black {
+        border-bottom-color: $color_black;
+      }
+      &-white {
+        border-bottom-color: $color_white;
+      }
+      &-transparent {
+        border-bottom-color: $color_transparent;
+      }
+    }
+    &-radius {
+      &-0 {
+        &-5 {
+          @include border-radius(0.5rem);
+        }
+        &-625 {
+          @include border-radius(0.625rem);
+        }
+      }
+      &-1 {
+        @include border-radius(1rem);
+      }
+      &-100 {
+        @include border-radius(100%);
+      }
+    }
+    &-r {
+      &-a {
+        border-radius: 10px;
+      }
+    }
+    &-w {
+      &-0 {
+        border-width: 0;
+      }
+      &-2 {
+        border-width: 2px;
+      }
+      &-4 {
+        border-width: 4px;
+      }
+    }
+    &-lg {
+      &-none {
+        @include breakpoint(desktop) {
+          border: none !important;
+        }
+      }
+    }
+  }
+}

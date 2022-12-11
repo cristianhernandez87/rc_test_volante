@@ -1,0 +1,54 @@
+// background
+.bg {
+    &.bg {
+        &-color {
+            &-primary {
+                background-color: $color_primary;
+                &-0 {
+                    &-1 { background-color: #e3e2e2; }
+                }
+            }
+            &-secondary {
+                background-color: $color_secondary;
+                &-18 {
+                    background-color: rgba($color_secondary, .18);
+                }
+                &-30 {
+                    background-color: rgba($color_secondary, .30);
+                }
+            }
+            &-tertiary {
+                background-color: $color_tertiary;
+                &-25 {
+                    background-color: rgba($color_tertiary, .25);
+                }
+            }
+            &-quaternary {
+                background-color: $color_quaternary;
+            }
+            &-quintary {
+                background-color: $color_quintary;
+            }
+            &-seven {
+                background-color: $color_seven;
+                &-18 {
+                    background-color: rgba($color_seven, .18);
+                }
+            }
+            &-black {
+                background-color: $color_black;
+            }
+            &-white {
+                background-color: $color_white;
+            }
+            &-transparent {
+                background-color: $color_transparent;
+            }
+        }
+        &-image {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+    }
+}

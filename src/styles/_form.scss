@@ -1,0 +1,17 @@
+// form
+@import 'mixing_artefacts';
+
+.form {
+    &-group {
+        .icon {
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &-control {
+        @include border-radius(.3rem);
+        border: none;
+
+    }
+}
