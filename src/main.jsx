@@ -18,12 +18,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/weather/c',
-        element: <Weather mode='temp_c'/>,
+        element: <Weather mode='celsius'/>,
         loader: weatherLoader
       },
       {
         path: '/weather/f',
-        element: <Weather mode="temp_f" />,
+        element: <Weather mode='ferenheit' />,
         loader: weatherLoader
       }
     ]
